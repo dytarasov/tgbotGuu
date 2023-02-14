@@ -11,10 +11,10 @@ from aiogram.utils import executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram_calendar import simple_cal_callback, SimpleCalendar
 from aiogram.utils.callback_data import CallbackData
+from config import TOKEN
 
-# api ключ для бота'
+API_TOKEN = TOKEN
 
-API_TOKEN = '5810734735:AAEHoE-jjC0PiyNy8m48aLREirzewbjbYBo'
 # логи
 
 logger = logging.getLogger('logger')
